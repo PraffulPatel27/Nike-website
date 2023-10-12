@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(111deg, #14A4EE -7.36%, #126BA8 9.67%, #0C3A6B 47.81%, #081F49 76.65%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+.top-content{
+    margin: 3.3rem;
+    flex-wrap: wrap;
+}
+.pt-1 {
+    display: flex;
+    color: white;
+    margin-left: 1.5rem;
+}
+.pt-1 img {
+    margin: 0.14rem 0 0.9rem 0.59rem;
+}
+.pt-2 {
+    text-align: right;
+    flex: 1;
+    margin-right: 8.68rem;
+}
+.pt-2 ul li {
+    color: white;
+    display: inline-block;
+    list-style: none;
+    grid-co: 1.57rem;
+    margin-right: 1.57rem;
+    flex-shrink: 0;
+    column-gap: 5rem;
+    font-style: normal;
+    line-height: 126%;
+    margin-top: 0.43rem;
+}
+#home {
+    color: #A8E910;
+}
+.triangle {
+    display: inline-;
+    width: 0.39038rem;
+    height: 0.39038rem;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    background: #A8E910;
+    margin-left: 0.86rem;
+    margin-top: 0.27rem;
+}
+.btn {
+    width: 9.11063rem;
+    height: 2.57581rem;
+    border-radius: 0.62013rem;
+    border: 0.763px solid #FFF;
+    display: flex;
+    color: white;
+    margin-right: 1.53rem;
+cursor: pointer;
+}
+.btn img {
+    margin: 0.81rem;
+}
+.btn h2{
+    font-size: 0.9rem;
+    padding: 0.477rem;
+}
+.container {
+    display: flex;
+}
+.left-text {
+    color: #FFF;
+    font-size: 4.58rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 129%;
+    letter-spacing: 0.06013rem;
+    margin: 8.49rem;
+    margin-left: 5.25rem;
+}
+.text {
+    color: #FFF;
+    font-size: 0.85856rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-top: 1.3rem;
+}
+.shop-now {
+    display: flex;
+    width: 9.683rem;
+    height: 3.14819rem;
+    padding: 0.477rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.477rem;
+    flex-shrink: 0;
+    border-radius: 0.76319rem;
+    background: linear-gradient(91deg, #A8E910 4.37%, #1C7227 114.07%);
+    margin-top: 3.29rem;
+    cursor: pointer;
+}
+.shop-now-2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 0.85856rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126%;
+}
+.right-image {
+    margin-top: 8.43rem;
+}
+.bg-1 {
+    width: 23.03894rem;
+    height: 8.01356rem;
+    flex-shrink: 0;
+    border-radius: 1.1925rem;
+    background: linear-gradient(278deg, #368822 31.86%, #A8E910 107.26%);
+    margin-top: 3.86rem;
+    margin-left: 13.76rem;
+}
+.line {
+    padding: 1.76rem 0 4.81rem 1.35rem;
+}
+.bg-2 {
+    color: #FFF;
+    font-size: 1.14481rem;
+}
+.bg-3 {
+    color: #FFF;
+    font-size: 1.14481rem;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+.bg-4{
+    color: #FFF;
+    font-size: 1.71719rem;
+    font-weight: 600;
+    padding-left: 1.76rem;
+    margin-top: -4.01rem;
+}
+.shoe {
+    width: 42.77875rem;
+    height: 30rem;
+    transform: rotate(-12.433deg);
+    transform: rotate(352deg);
+    margin-left: 6.2rem;
+    margin-right: 1.36rem;
+    margin-top: -18rem;
+}
+.btnn {
+    width: 11.73413rem;
+    height: 2.385rem;
+    flex-shrink: 0;
+    border-radius: 0.7155rem 0rem 0rem 0rem;
+    background: linear-gradient(90deg, rgba(16, 90, 146, 0.27) 9.19%, rgba(12, 59, 107, 0.69) 28.58%, #0A305E 53.4%, #081F49 99.75%);
+    margin-left: 5.25rem;
+    margin-bottom: 2.72rem;
+    display: flex;
+    cursor: pointer;
+}
+.btnn p {
+    color: #FFF;
+    font-size: 0.85856rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%; 
+    padding: 0.62rem 0 0.7rem 0.67rem;
+}
+.btnn img {
+    width: 1.28788rem;
+    height: 1.28788rem;
+    flex-shrink: 0;
+   margin: 0.58rem 0.57rem 0 0;
+}
+.shoes {
+    width: 14.14663rem;
+    height: 16.41681rem;
+    flex-shrink: 0;
+    display: flex;
+    margin-left: 53rem;
+    margin-top: -18rem;
+}
+.shoes p {
+    color: #FFF;
+    font-size: 0.85856rem;
+    font-weight: 600;
+    margin: 13.02rem -10.5rem 2.33rem;
+}
+.shoes2 {
+    width: 14.14663rem;
+    height: 16.41681rem;
+    flex-shrink: 0;
+    display: flex;
+    margin-left: 65rem;
+    margin-top: -16.4rem;
+}
+.shoes2 p {
+    color: #FFF;
+    font-size: 0.85856rem;
+    font-weight: 600;
+    margin: 13.02rem -10.5rem 2.33rem;
+}
